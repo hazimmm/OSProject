@@ -255,34 +255,6 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
 
-processor       : 1
-vendor_id       : AuthenticAMD
-cpu family      : 25
-model           : 1
-model name      : AMD EPYC 7763 64-Core Processor
-stepping        : 1
-microcode       : 0xffffffff
-cpu MHz         : 3242.323
-cache size      : 512 KB
-physical id     : 0
-siblings        : 2
-core id         : 0
-cpu cores       : 1
-apicid          : 1
-initial apicid  : 1
-fpu             : yes
-fpu_exception   : yes
-cpuid level     : 13
-wp              : yes
-flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
-bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
-bogomips        : 4890.86
-TLB size        : 2560 4K pages
-clflush size    : 64
-cache_alignment : 64
-address sizes   : 48 bits physical, 48 bits virtual
-power management:
-
 9. Run the command **top** and type **q** to quit. ***(1 mark)***
 processor       : 1
 vendor_id       : AuthenticAMD
@@ -343,7 +315,7 @@ cpu MHz         : 3242.323
 codespaces 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                                           
   12246 codespa+  20   0   21.1g 335472  46336 S   2.3   4.1   1:17.63 node 
-  
+
 ## Running your own container instance.
 
 1. At the terminal, run a linux instance. By typing the following command. 
