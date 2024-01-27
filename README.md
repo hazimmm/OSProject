@@ -374,8 +374,11 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** 
+No, files in a container are not persistent by default due to the fundamental design principles of containerization. Containers are designed to be lightweight, portable, and stateless, allowing for easy deployment and scaling. 
+
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** 
+Yes, we can run multiple instances of Debian Linux, or any other operating system, on a single machine
 
 ## Running your own container with persistent storage
 
@@ -394,7 +397,7 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** total 0
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
