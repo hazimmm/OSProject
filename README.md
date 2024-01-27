@@ -59,9 +59,14 @@ https://github.com/hazimmm/OSProject?tab=readme-ov-file
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** 
+Linux
+
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+ 8 gb/64 gb ram, 32 gb/128 gb storage, 2/32 cores
+
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
+to preserve our work, save in to the main repository
 
 ## Exploring the Terminal
 
