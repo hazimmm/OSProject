@@ -436,6 +436,7 @@ total 12
 -rw-rw-rw- 1 codespace root       189 Jan 30 15:48 index.html
 
 -rw-rw-rw- 1 codespace codespace 5049 Jan 30 15:48 titanholo.jpeg
+
 2. What port is the apache web server running. ***(1 mark)*** 8080
 3. What port is open for http protocol on the host machine? ***(1 mark)*** 80
 
